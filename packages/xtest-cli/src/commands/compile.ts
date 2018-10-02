@@ -6,6 +6,8 @@ import { Compiler, DefaultReporter } from '@xtest/compiler';
 export default async function (argv) {
   const { match, build, severities } = argv;
 
+  console.log('Hahahaha!');
+
   const compiler = new Compiler({
     reporter: new DefaultReporter(severities),
   });
