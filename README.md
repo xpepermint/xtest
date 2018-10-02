@@ -2,6 +2,14 @@
 $ rush init
 $ rush update --full
 $ rush rebuild
+```
+
+```
 $ rush test
-$ rush publish --include-all
+```
+
+```
+# commit changes
+$ rush change
+$ rush publish
 ```
