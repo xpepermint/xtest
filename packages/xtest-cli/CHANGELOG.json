@@ -1,0 +1,22 @@
+{
+  "name": "@xtest/cli",
+  "entries": [
+    {
+      "version": "0.1.0",
+      "tag": "@xtest/cli_v0.1.0",
+      "date": "Tue, 02 Oct 2018 19:00:49 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Zamenjali smo XY"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "traloalala"
+          }
+        ]
+      }
+    }
+  ]
+}
