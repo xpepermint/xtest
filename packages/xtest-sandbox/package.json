@@ -9,7 +9,7 @@
     "build": "npm run clean; tsc",
     "lint": "tslint 'src/**/*.ts?(x)'",
     "prepare": "npm run build",
-    "test": "nyc ava"
+    "test": "nyc ./node_modules/.bin/ava"
   },
   "ava": {
     "compileEnhancements": false,

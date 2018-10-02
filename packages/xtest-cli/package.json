@@ -11,7 +11,7 @@
     "clean": "rm -Rf ./dist; rm -Rf ./build",
     "build": "npm run clean; tsc",
     "prepare": "npm run build",
-    "test": "npm run build && nyc ava"
+    "test": "npm run build && nyc ./node_modules/.bin/ava"
   },
   "ava": {
     "compileEnhancements": false,
