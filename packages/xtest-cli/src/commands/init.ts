@@ -10,7 +10,7 @@ export default async function (argv) {
   const root = process.cwd();
   const printer = new Printer();
   
-  console.log('Foo!');
+  console.log('Bar!');
 
   let answers = {};
   if (!(name && description)) {
