@@ -37,7 +37,7 @@
   "license": "MIT",
   "devDependencies": {
     "@0xcert/ethereum-utils": "1.0.1",
-    "@types/fs-extra": "5.0.3",
+    "@types/fs-extra": "^5.0.3",
     "@types/node": "^10.3.2",
     "ava": "^1.0.0-beta.6",
     "nyc": "^12.0.2",
@@ -48,7 +48,7 @@
   "dependencies": {
     "@hayspec/reporter": "^0.4.21",
     "fast-glob": "^2.2.2",
-    "fs-extra": "7.0.0"
+    "fs-extra": "^7.0.0"
   },
   "peerDependencies": {
     "solc": "^0.4.24"

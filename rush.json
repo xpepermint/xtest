@@ -15,23 +15,28 @@
   "projects": [
     {
       "packageName": "@xtest/sandbox",
-      "projectFolder": "packages/xtest-sandbox"
+      "projectFolder": "packages/xtest-sandbox",
+      "shouldPublish": true
     },
     {
       "packageName": "@xtest/init",
-      "projectFolder": "packages/xtest-init"
+      "projectFolder": "packages/xtest-init",
+      "shouldPublish": true
     },
     {
       "packageName": "@xtest/compiler",
-      "projectFolder": "packages/xtest-compiler"
+      "projectFolder": "packages/xtest-compiler",
+      "shouldPublish": true
     },
     {
       "packageName": "@xtest/spec",
-      "projectFolder": "packages/xtest-spec"
+      "projectFolder": "packages/xtest-spec",
+      "shouldPublish": true
     },
     {
       "packageName": "@xtest/cli",
-      "projectFolder": "packages/xtest-cli"
+      "projectFolder": "packages/xtest-cli",
+      "shouldPublish": true
     }
   ]
 }
