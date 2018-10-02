@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.3.0",
+  "pnpmVersion": "2.15.1",
+  "pnpmOptions": {},
+  "nodeSupportedVersionRange": ">=10.0.0",
+  "gitPolicy": {},
+  "repository": {},
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "projects": [
+    {
+      "packageName": "@xtest/sandbox",
+      "projectFolder": "packages/xtest-sandbox"
+    },
+    {
+      "packageName": "@xtest/init",
+      "projectFolder": "packages/xtest-init"
+    },
+    {
+      "packageName": "@xtest/compiler",
+      "projectFolder": "packages/xtest-compiler"
+    },
+    {
+      "packageName": "@xtest/spec",
+      "projectFolder": "packages/xtest-spec"
+    },
+    {
+      "packageName": "@xtest/cli",
+      "projectFolder": "packages/xtest-cli"
+    }
+  ]
+}

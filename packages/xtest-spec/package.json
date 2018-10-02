@@ -1,0 +1,57 @@
+{
+  "name": "@xtest/spec",
+  "version": "0.0.46",
+  "description": "Test suits for ChainSpin framework.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -Rf ./dist",
+    "build": "npm run clean; tsc",
+    "prepare": "npm run build",
+    "test": "nyc ava --verbose"
+  },
+  "ava": {
+    "concurrency": 1,
+    "compileEnhancements": false,
+    "require": [
+      "ts-node/register"
+    ],
+    "extensions": [
+      "ts"
+    ],
+    "files": [
+      "src/tests/*.test.ts",
+      "src/tests/**/*.test.ts"
+    ]
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "exclude": [
+      "src/tests"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@0xcert/ethereum-utils": "1.0.1",
+    "@xtest/sandbox": "0.0.46",
+    "@types/node": "^10.3.2",
+    "ava": "^1.0.0-beta.6",
+    "nyc": "^12.0.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1",
+    "web3": "^1.0.0-beta.36"
+  },
+  "peerDependencies": {
+    "web3": "*"
+  },
+  "dependencies": {
+    "@hayspec/reporter": "^0.4.21",
+    "@hayspec/runner": "^0.4.21",
+    "@hayspec/spec": "^0.4.21"
+  }
+}
