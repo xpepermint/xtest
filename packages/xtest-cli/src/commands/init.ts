@@ -1,6 +1,6 @@
 import * as inquirer from 'inquirer';
-import { Generator } from '@xtest/init';
 import { Printer } from '@hayspec/reporter';
+import { Generator } from '@xtest/init';
 
 /**
  * Initializes project directory.
@@ -10,6 +10,8 @@ export default async function (argv) {
   const root = process.cwd();
   const printer = new Printer();
   
+  console.log('Foo!');
+
   let answers = {};
   if (!(name && description)) {
     answers = await inquirer.prompt([
