@@ -13,7 +13,6 @@ dependencies:
   '@types/node': 10.11.3
   '@types/supertest': 2.0.6
   '@types/yargs': 11.1.2
-  '@xtest/spec': 0.0.46
   ava: 1.0.0-beta.8
   fast-glob: 2.2.3
   fs-extra: 7.0.0
@@ -621,28 +620,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-zG61PAp2OcoIBjRV44wftJj6AJgzJrOc32LCYOBqk9bdgcdzK5DCJHV9QZJ60+Fu+fOn79g8Ks3Gixm4CfkZ+w==
-  /@xtest/spec/0.0.46:
-    dependencies:
-      '@hayspec/reporter': 0.4.21
-      '@hayspec/runner': 0.4.21
-      '@hayspec/spec': 0.4.21
-    dev: false
-    peerDependencies:
-      web3: '*'
-    resolution:
-      integrity: sha512-4mDUY+xYjU/nrkeJYTn7Idf0/81vhwmpREdR6bfmvLCw++51Oitnw7Y7Jkcvo04LxsPVsBqrh112oZMu4qDrZQ==
-  /@xtest/spec/0.0.46/web3@1.0.0-beta.36:
-    dependencies:
-      '@hayspec/reporter': 0.4.21
-      '@hayspec/runner': 0.4.21
-      '@hayspec/spec': 0.4.21
-      web3: 1.0.0-beta.36
-    dev: false
-    id: registry.npmjs.org/@xtest/spec/0.0.46
-    peerDependencies:
-      web3: '*'
-    resolution:
-      integrity: sha512-4mDUY+xYjU/nrkeJYTn7Idf0/81vhwmpREdR6bfmvLCw++51Oitnw7Y7Jkcvo04LxsPVsBqrh112oZMu4qDrZQ==
   /accepts/1.3.5:
     dependencies:
       mime-types: 2.1.20
@@ -6134,7 +6111,6 @@ packages:
       '@types/inquirer': 0.0.41
       '@types/node': 10.11.3
       '@types/yargs': 11.1.2
-      '@xtest/spec': /@xtest/spec/0.0.46/web3@1.0.0-beta.36
       ava: 1.0.0-beta.8
       inquirer: 6.2.0
       nyc: 12.0.2
@@ -6146,7 +6122,7 @@ packages:
     dev: false
     name: '@rush-temp/cli'
     resolution:
-      integrity: sha512-chVWEV6jwdDPj/bajW38X7dmu9R2HHc/Zy8qVO3MsIprRusfO+mJl4FfNh6uzpRhpkzbfu7n7U7GTmphVcLBrg==
+      integrity: sha512-R6BbeB1I3q505176S3h43bfjVlayfkLCkHBRMUCkQhCKOxZWdXJmbSBdxfFtP2e7zyiDL/aT7eYC8LirzMoIaQ==
       tarball: 'file:projects/cli.tgz'
     version: 0.0.0
   'file:projects/compiler.tgz':
@@ -6214,7 +6190,7 @@ packages:
     dev: false
     name: '@rush-temp/spec'
     resolution:
-      integrity: sha512-/wqyTLrB39PFma8QrkcpzEoLqsWexrUqZxUErtatM+cdXOO8xy9B1HjJuTP8VikytNotU09KqhAOMv9+o8eTEQ==
+      integrity: sha512-t9NxnGvNeV8qJO2SxDPzJIqPbnQX9qXugBr8DegUWe7yOeJCtWg341YBnNMamnNWoPdmgXYnTtt88MUhuUqaqQ==
       tarball: 'file:projects/spec.tgz'
     version: 0.0.0
   github.com/frozeman/WebSocket-Node/6c72925e3f8aaaea8dc8450f97627e85263999f2:
@@ -6249,7 +6225,6 @@ specifiers:
   '@types/node': ^10.3.2
   '@types/supertest': ^2.0.4
   '@types/yargs': ^11.0.0
-  '@xtest/spec': 0.0.46
   ava: ^1.0.0-beta.6
   fast-glob: ^2.2.2
   fs-extra: ^7.0.0
