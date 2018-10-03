@@ -13,7 +13,7 @@ Publish changed packages:
 ```
 # commit changes but DO NOT push them to origin before creating change log
 $ rush change
-$ rush publish --publish
+$ rush publish -p -b master
 ```
 
 
