@@ -1,20 +1,42 @@
+Initialize the project:
 ```
 $ rush init
 ```
 
+Publish for the first time:
 ```
-$ rush update --full
-$ rush rebuild
+# commit changes before creating change log
+$ rush publish --publish
 ```
+
+Publish changed packages:
+```
+# commit changes but DO NOT push them to origin before creating change log
+$ rush change
+$ rush publish --publish
+```
+
+
+
+
+
+
 
 ```
 # add custom `test` command to common/config/command-line.json
 $ rush test
 ```
 
+
 ```
 # commit changes before creating change log
 $ rush change
-$ rush publish
+$ rush publish --publish
 # verify to output above amd do
+```
+
+
+```
+$ rush update --full
+$ rush rebuild
 ```

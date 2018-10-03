@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@xtest/spec",
+      "comment": "Spremenil sem tralala hop sa sa",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@xtest/spec",
+  "email": "xpepermint@gmail.com"
+}
