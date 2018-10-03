@@ -1,6 +1,8 @@
 Initialize the project:
 ```
 $ rush init
+$ rush update --full
+$ rush rebuild
 ```
 
 Publish for the first time:
@@ -17,27 +19,8 @@ $ rush version --bump
 $ rush publish --publish --include-all
 ```
 
-
-
-
-
-
-
+Define custom `test` command:
 ```
 # add custom `test` command to common/config/command-line.json
 $ rush test
-```
-
-
-```
-# commit changes before creating change log
-$ rush change
-$ rush publish --publish
-# verify to output above amd do
-```
-
-
-```
-$ rush update --full
-$ rush rebuild
 ```

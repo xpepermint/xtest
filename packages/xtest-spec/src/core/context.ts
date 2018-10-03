@@ -28,7 +28,7 @@ export class Context<Data = {}> extends ContextBase<Data> {
    * 
    */
   public reverts(fn: () => any, message?: any): AssertionNote | Promise<AssertionNote> {
-    console.log('Foo!!');
+    console.log('Foo2!');
     return this.assert({
       assertion: 'reverts',
       handler: () => reverts(fn, message),
