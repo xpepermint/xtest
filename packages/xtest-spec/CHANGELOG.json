@@ -2,6 +2,18 @@
   "name": "@xtest/spec",
   "entries": [
     {
+      "version": "0.2.3",
+      "tag": "@xtest/spec_v0.2.3",
+      "date": "Wed, 03 Oct 2018 10:22:58 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update version"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.2",
       "tag": "@xtest/spec_v0.2.2",
       "date": "Wed, 03 Oct 2018 10:17:54 GMT",

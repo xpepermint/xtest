@@ -14,7 +14,7 @@ Publish changed packages:
 # commit changes but DO NOT push them to origin before creating change log
 $ rush change
 $ rush version --bump
-$ rush publish -p -b master
+$ rush publish --publish --include-all
 ```
 
 
