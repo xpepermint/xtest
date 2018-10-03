@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@xtest/spec",
+      "comment": "Hahaha 2",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@xtest/spec",
+  "email": "xpepermint@gmail.com"
+}
