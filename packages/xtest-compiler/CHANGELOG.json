@@ -1,0 +1,11 @@
+{
+  "name": "@xtest/compiler",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "@xtest/compiler_v1.1.0",
+      "date": "Sat, 03 Nov 2018 19:24:11 GMT",
+      "comments": {}
+    }
+  ]
+}

@@ -16,27 +16,27 @@
     {
       "packageName": "@xtest/sandbox",
       "projectFolder": "packages/xtest-sandbox",
-      "shouldPublish": true
+      "versionPolicyName": "framework"
     },
     {
       "packageName": "@xtest/init",
       "projectFolder": "packages/xtest-init",
-      "shouldPublish": true
+      "versionPolicyName": "framework"
     },
     {
       "packageName": "@xtest/compiler",
       "projectFolder": "packages/xtest-compiler",
-      "shouldPublish": true
+      "versionPolicyName": "framework"
     },
     {
       "packageName": "@xtest/spec",
       "projectFolder": "packages/xtest-spec",
-      "shouldPublish": true
+      "versionPolicyName": "framework"
     },
     {
       "packageName": "@xtest/cli",
       "projectFolder": "packages/xtest-cli",
-      "shouldPublish": true
+      "versionPolicyName": "framework"
     }
   ]
 }

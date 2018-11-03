@@ -2,6 +2,24 @@
   "name": "@xtest/spec",
   "entries": [
     {
+      "version": "1.1.0",
+      "tag": "@xtest/spec_v1.1.0",
+      "date": "Sat, 03 Nov 2018 19:24:11 GMT",
+      "comments": {}
+    },
+    {
+      "version": "0.3.0",
+      "tag": "@xtest/spec_v0.3.0",
+      "date": "Wed, 03 Oct 2018 10:27:30 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Fo ba r"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.3",
       "tag": "@xtest/spec_v0.2.3",
       "date": "Wed, 03 Oct 2018 10:22:58 GMT",

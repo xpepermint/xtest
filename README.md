@@ -1,3 +1,8 @@
+Install dependencies:
+```
+npm install -g @microsoft/rush
+```
+
 Initialize the project:
 ```
 $ rush init
@@ -11,11 +16,13 @@ Publish for the first time:
 $ rush publish --publish
 ```
 
-Publish changed packages:
+Publish changed packages (make sure you define package version using `^`):
 ```
 # commit changes but DO NOT push them to origin before creating change log
 $ rush change
-$ rush version --bump
+$ rush publish
+$ rush version --bump # optional if version is not updated
+$ rush check
 $ rush publish --publish --include-all
 ```
 

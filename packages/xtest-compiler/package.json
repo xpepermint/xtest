@@ -1,6 +1,6 @@
 {
   "name": "@xtest/compiler",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "description": "Solidity contract compiler for ChainSpin framework.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
